@@ -1,0 +1,244 @@
+:root {
+  --color-white: #fff;
+  --color-primarywhite: #ededed;
+  --color-secondarywhite: #eee;
+  --color-blue: #2196f3;
+  --color-focus: #188ce8;
+  --color-darkblue: #2f303a;
+  --color-black: #212121;
+  --color-gray: #757575;
+  --color-lightgray: #f5f4fa;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.page-header .site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav.current {
+  color: var(--color-blue);
+}
+
+.auth-nav {
+  color: var(--color-gray);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav:hover,
+.site-nav:hover,
+.auth-nav:focus,
+.site-nav:focus {
+  color: var(--color-blue);
+}
+
+.text-blue {
+  color: var(--color-blue);
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-gray {
+  color: var(--color-gray);
+}
+
+a[href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"]
+{
+  color: var(--color-white);
+}
+
+.section-pageone {
+  color: var(--color-white);
+  background-color: var(--color-darkblue);
+  text-align: cente;
+}
+
+.h-one {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  font-family: inherit;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-focus);
+}
+
+.h-three-in-pageone {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  background-color: var(--color-lightgray);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.paragraph {
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.specialty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.filter {
+  background-color: var(--color-lightgray);
+  border: none;
+  font-family: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}
+
+.h-two-in-pagetwo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.container-in-pagetwo {
+  background: var(--color-white);
+  border: 1px solid #eeeeee;
+}
+
+.paragraph-in-pagetwo {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.team-card {
+  background-color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.words-in-center {
+  text-align: center;
+}
+
+.page-footer {
+  background-color: var(--color-darkblue);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address:focus,
+.address:hover {
+  color: var(--color-blue);
+}
+
+.page-footer .link {
+  font-weight: 400;
+}
+
+.unique {
+  color: rgba(255, 255, 255, 0.6);
+}
