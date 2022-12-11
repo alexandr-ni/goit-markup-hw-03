@@ -298,6 +298,7 @@ a[href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"]
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 /* Portfolio */
@@ -364,8 +365,8 @@ a[href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"]
   padding: 60px 0;
 }
 
-.footer-li:first-child {
-  margin-top: 20px;
+.address-box {
+    margin-top: 20px;
 }
 
 .address {
